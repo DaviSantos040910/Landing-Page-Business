@@ -9,7 +9,7 @@ const PortfolioSection = () => {
       category: "Elétrica",
       icon: Zap,
       // EDITE: Coloque a URL da sua foto aqui
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop",
+      image: "/projeto-eletrico.jpg",
       description: "Quadro de distribuição completo instalado conforme normas ABNT.",
     },
     {
@@ -92,14 +92,13 @@ const PortfolioSection = () => {
                 />
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
+
                 {/* Category Badge */}
                 <div className="absolute top-4 left-4">
-                  <div className={`flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium ${
-                    project.category === "Elétrica" 
-                      ? "bg-primary/20 text-primary" 
+                  <div className={`flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium ${project.category === "Elétrica"
+                      ? "bg-primary/20 text-primary"
                       : "bg-secondary/20 text-secondary"
-                  }`}>
+                    }`}>
                     <project.icon className="w-3 h-3" />
                     {project.category}
                   </div>
