@@ -4,10 +4,10 @@ import { Button } from "./ui/button";
 const ContactSection = () => {
   // EDITE: Suas informações de contato
   const contactInfo = {
-    phone: "(XX) XXXXX-XXXX",
-    whatsapp: "5511999999999", // Número completo com código do país
-    email: "seu@email.com",
-    address: "Sua Cidade - Estado",
+    phone: "(89) 98101-3110",
+    whatsapp: "5589981013110", // Número completo com código do país
+    email: "davisantossousa2@gmail.com",
+    address: "São Raimundo Nonato - PI",
     hours: "Segunda a Sábado: 8h às 18h",
   };
 

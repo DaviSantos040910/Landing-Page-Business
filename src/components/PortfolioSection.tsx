@@ -19,7 +19,7 @@ const PortfolioSection = () => {
       icon: Camera,
       // EDITE: Coloque a URL da sua foto aqui
       image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=400&fit=crop",
-      description: "8 câmeras HD com monitoramento remoto pelo celular.",
+      description: "Câmeras HD com monitoramento remoto pelo celular.",
     },
     {
       id: 3,

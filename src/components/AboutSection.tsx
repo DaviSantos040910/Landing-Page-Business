@@ -67,8 +67,8 @@ const AboutSection = () => {
             <div className="space-y-4 text-muted-foreground mb-8">
               {/* EDITE: Sua história e experiência */}
               <p>
-                Sou eletricista residencial com mais de 10 anos de experiência no mercado. 
-                Especializado em instalações elétricas e sistemas de segurança residencial, 
+                Sou eletricista residencial e predial com mais de 10 anos de experiência no mercado. 
+                Especializado em instalações elétricas e sistemas de segurança residencial e predial, 
                 sempre trabalhando com qualidade e dentro das normas técnicas.
               </p>
               <p>
@@ -77,7 +77,7 @@ const AboutSection = () => {
                 equipamentos elétricos.
               </p>
               <p>
-                Atendo em [SUA CIDADE] e região, sempre com pontualidade e preços justos. 
+                Atendo em São Raimundo Nonato-PI e região, sempre com pontualidade e preços justos. 
                 Faço orçamentos sem compromisso e ofereço garantia em todos os serviços.
               </p>
             </div>

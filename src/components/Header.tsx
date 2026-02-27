@@ -24,7 +24,7 @@ const Header = () => {
             </div>
             <span className="font-heading text-xl font-bold text-foreground">
               {/* EDITE: Seu nome ou nome da empresa */}
-              Seu Nome
+              Davi - Soluções Elétricas e Segurança
             </span>
           </a>
 
