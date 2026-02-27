@@ -1,4 +1,4 @@
-import { Zap, Shield, Camera, Lightbulb, Cable, AlertTriangle, Lock, Wifi } from "lucide-react";
+import { Zap, Shield, Camera, Lightbulb, Cable, AlertTriangle, Lock, Wifi, Droplets, Home } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 const ServicesSection = () => {
@@ -25,6 +25,19 @@ const ServicesSection = () => {
     },
   ];
 
+  const automationServices = [
+    {
+      icon: Wifi,
+      title: "Automação Residencial",
+      description: "Controle inteligente de iluminação, portões, cortinas e dispositivos pelo smartphone.",
+    },
+    {
+      icon: Droplets,
+      title: "Bombas D'Água Automatizadas",
+      description: "Instalação e automação de bombas d'água com sensores de nível e controle automático.",
+    },
+  ];
+
   const securityServices = [
     {
       icon: Camera,
@@ -42,9 +55,9 @@ const ServicesSection = () => {
       description: "Instalação de cercas elétricas com central de choque e alarme integrado.",
     },
     {
-      icon: Wifi,
-      title: "Automação Residencial",
-      description: "Controle de iluminação, portões e câmeras pelo smartphone.",
+      icon: Home,
+      title: "Controle de Acesso",
+      description: "Sistemas de controle de acesso com fechaduras eletrônicas e interfones.",
     },
   ];
 
@@ -80,6 +93,39 @@ const ServicesSection = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {electricalServices.map((service, index) => (
+              <Card 
+                key={index} 
+                className="gradient-card border-border hover:border-primary/50 transition-all duration-300 group hover:glow-primary"
+              >
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                    <service.icon className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-foreground font-heading">{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-muted-foreground">
+                    {service.description}
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Automation Services */}
+        <div className="mb-16">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="p-2 rounded-lg bg-accent/20">
+              <Wifi className="w-6 h-6 text-accent-foreground" />
+            </div>
+            <h3 className="text-2xl font-heading font-semibold text-foreground">
+              Automação & Bombas D'Água
+            </h3>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {automationServices.map((service, index) => (
               <Card 
                 key={index} 
                 className="gradient-card border-border hover:border-primary/50 transition-all duration-300 group hover:glow-primary"
