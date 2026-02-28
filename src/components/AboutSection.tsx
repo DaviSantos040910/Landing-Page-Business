@@ -36,7 +36,7 @@ const AboutSection = () => {
               {/* EDITE: Substitua pela sua foto */}
               <div className="aspect-[4/5] rounded-2xl overflow-hidden border-2 border-border">
                 <img
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=750&fit=crop"
+                  src="/projeto-eletrico.jpg"
                   alt="Foto do Eletricista"
                   className="w-full h-full object-cover"
                 />
@@ -61,13 +61,13 @@ const AboutSection = () => {
             
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
               {/* EDITE: Seu nome */}
-              Seu Nome Aqui
+              Davi Santos
             </h2>
             
             <div className="space-y-4 text-muted-foreground mb-8">
               {/* EDITE: Sua história e experiência */}
               <p>
-                Sou eletricista residencial e predial com mais de 10 anos de experiência no mercado. 
+                Sou eletricista residencial e predial com experiência no mercado. 
                 Especializado em instalações elétricas e sistemas de segurança residencial e predial, 
                 sempre trabalhando com qualidade e dentro das normas técnicas.
               </p>
