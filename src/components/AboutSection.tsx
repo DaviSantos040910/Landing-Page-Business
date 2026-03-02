@@ -36,7 +36,7 @@ const AboutSection = () => {
               {/* EDITE: Substitua pela sua foto */}
               <div className="aspect-[4/5] rounded-2xl overflow-hidden border-2 border-border">
                 <img
-                  src="/projeto-eletrico.jpg"
+                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop"
                   alt="Foto do Eletricista"
                   className="w-full h-full object-cover"
                 />
