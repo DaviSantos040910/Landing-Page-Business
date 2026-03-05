@@ -8,6 +8,14 @@ Uma landing page moderna, responsiva e otimizada para conversão — projetada p
 
 🔗 **[Ver Demo ao Vivo](https://portifolioeletrico.vercel.app)**
 
+<br>
+
+<a href="https://portifolioeletrico.vercel.app">
+  <img src="https://image.thum.io/get/width/1200/crop/800/https://portifolioeletrico.vercel.app" alt="Screenshot da Landing Page" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" width="100%">
+</a>
+
+<br>
+
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
