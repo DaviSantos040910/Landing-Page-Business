@@ -2,9 +2,9 @@
 
 # ⚡ Landing Page Business
 
-**Template de Landing Page Comercial para Negócios Locais**
+**Template de Landing Page Comercial para Seu Negócio**
 
-Uma landing page moderna, responsiva e otimizada para conversão — projetada para prestadores de serviço, autônomos e pequenos negócios que desejam gerar leads e atrair clientes online.
+Uma landing page moderna, responsiva e otimizada para conversão — projetada para qualquer negócio que deseja gerar leads e atrair clientes online.
 
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -32,7 +32,7 @@ Uma landing page moderna, responsiva e otimizada para conversão — projetada p
 
 ## 🎯 Sobre o Projeto
 
-O **Landing Page Business** é um template de landing page profissional, construído com foco em **conversão de leads** e **experiência do usuário**. Embora a versão de demonstração apresente um cenário para eletricista/segurança residencial, toda a estrutura foi pensada para ser **facilmente adaptável a qualquer nicho de negócio local**, como:
+O **Landing Page Business** é um template de landing page profissional, construído com foco em **conversão de leads** e **experiência do usuário**. Embora a versão de demonstração apresente um cenário para eletricista/segurança residencial, toda a estrutura foi pensada para ser **facilmente adaptável a qualquer tipo de negócio**, como:
 
 - 🔧 Encanadores, pintores e técnicos
 - 🏥 Clínicas e consultórios
