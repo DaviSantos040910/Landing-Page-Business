@@ -6,6 +6,8 @@
 
 Uma landing page moderna, responsiva e otimizada para conversão — projetada para qualquer negócio que deseja gerar leads e atrair clientes online.
 
+🔗 **[Ver Demo ao Vivo](https://portifolioeletrico.vercel.app)**
+
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
