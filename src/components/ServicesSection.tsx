@@ -6,7 +6,7 @@ const ServicesSection = () => {
     {
       icon: Lightbulb,
       title: "Instalações Elétricas",
-      description: "Instalação completa de sistemas elétricos residenciais, incluindo tomadas, interruptores e iluminação.",
+      description: "Instalação completa de sistemas elétricos industriais e residenciais, incluindo automação, força e iluminação.",
     },
     {
       icon: Cable,
@@ -69,10 +69,11 @@ const ServicesSection = () => {
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-4">
             O que Posso Fazer por Você
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            {/* EDITE: Sua descrição de serviços */}
-            Soluções completas em eletricidade e segurança residencial, sempre com qualidade e garantia.
-          </p>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+                Sou eletricista industrial, residencial e predial com vasta experiência no mercado. 
+                Especializado em instalações de alta complexidade e sistemas de segurança avançados, 
+                sempre trabalhando com qualidade e rigor técnico.
+            </p>
         </div>
 
         {/* Electrical Services */}

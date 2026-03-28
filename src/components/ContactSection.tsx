@@ -265,7 +265,7 @@ const ContactSection = () => {
               </Button>
               
               <p className="text-xs text-muted-foreground text-center">
-                Segurança de dados garantida. Respondemos em até 24h.
+                Segurança de dados garantida. Respondemos rapidamente.
               </p>
             </form>
           </div>

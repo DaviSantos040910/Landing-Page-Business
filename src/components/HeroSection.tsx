@@ -19,15 +19,13 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-8 animate-slide-up">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm text-primary font-medium">Eletricista Residencial & Segurança</span>
+            <span className="text-sm text-primary font-medium">Eletricista Industrial e Segurança • São Raimundo Nonato - PI</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
             {/* EDITE: Seu título principal */}
-            Soluções Elétricas e de{" "}
-            <span className="text-gradient">Segurança</span>{" "}
-            para sua Casa
+            Soluções Elétricas <span className="text-gradient">Industriais</span> e de Segurança
           </h1>
 
           {/* Subtitle */}
@@ -40,7 +38,7 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <Button variant="hero" size="xl" asChild>
-              <a href="#contato">
+              <a href={`https://wa.me/5589981013110`} target="_blank" rel="noopener noreferrer">
                 <Zap className="w-5 h-5" />
                 Solicitar Orçamento
               </a>
@@ -53,22 +51,6 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 animate-slide-up" style={{ animationDelay: "0.4s" }}>
-            {/* EDITE: Seus números */}
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-primary">10+</div>
-              <div className="text-sm text-muted-foreground">Anos de Experiência</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-secondary">500+</div>
-              <div className="text-sm text-muted-foreground">Projetos Realizados</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-primary">100%</div>
-              <div className="text-sm text-muted-foreground">Clientes Satisfeitos</div>
-            </div>
-          </div>
 
           {/* Scroll Indicator */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">

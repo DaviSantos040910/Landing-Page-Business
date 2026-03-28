@@ -27,8 +27,8 @@ const PortfolioSection = () => {
     {
       id: 1,
       tag: "Elétrica",
-      title: "Quadro Elétrico Residencial",
-      description: "Instalação profissional de quadro de distribuição, organizando circuitos de forma eficiente e segura, seguindo todas as normas técnicas vigentes.",
+      title: "Quadro Elétrico Industrial",
+      description: "Montagem técnica de quadro de força industrial, com barramentos dimensionados para alta demanda, garantindo a continuidade operacional da planta fabril.",
       image: "/quadro-eletrico-1.jpeg",
       icon: Zap,
     },

@@ -38,14 +38,8 @@ const AboutSection = () => {
                 <img
                   src="/me.jpeg"
                   alt="Davi Santos"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover transition-all duration-700"
                 />
-              </div>
-              
-              {/* Floating Badge */}
-              <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl glow-primary">
-                <div className="text-3xl font-heading font-bold">10+</div>
-                <div className="text-sm opacity-90">Anos de Experiência</div>
               </div>
             </div>
             
@@ -67,9 +61,9 @@ const AboutSection = () => {
             <div className="space-y-4 text-muted-foreground mb-8">
               {/* EDITE: Sua história e experiência */}
               <p>
-                Sou eletricista residencial e predial com experiência no mercado. 
-                Especializado em instalações elétricas e sistemas de segurança residencial e predial, 
-                sempre trabalhando com qualidade e dentro das normas técnicas.
+                Sou eletricista industrial, residencial e predial com vasta experiência no mercado. 
+                Especializado em instalações de alta complexidade e sistemas de segurança avançados, 
+                sempre trabalhando com qualidade e rigor técnico.
               </p>
               <p>
                 Minha missão é proporcionar soluções seguras e eficientes para sua casa, 

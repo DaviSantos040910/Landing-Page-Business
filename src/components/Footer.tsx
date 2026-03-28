@@ -5,7 +5,7 @@ const Footer = () => {
   const socialLinks = {
     instagram: "https://instagram.com/seu_usuario",
     facebook: "https://facebook.com/sua_pagina",
-    whatsapp: "5511999999999",
+    whatsapp: "5589981013110",
   };
 
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <span className="font-heading text-xl font-bold text-foreground">
               {/* EDITE: Seu nome ou empresa */}
-              Seu Nome
+              Davi Santos
             </span>
           </div>
 
@@ -68,14 +68,13 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Seu Nome. Todos os direitos reservados.
+            © {new Date().getFullYear()} Davi Santos. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             {/* EDITE: Sua cidade */}
-            Eletricista Residencial e Segurança • Sua Cidade - Estado
+            Eletricista Industrial e Segurança • São Raimundo Nonato - PI
           </p>
         </div>
       </div>
