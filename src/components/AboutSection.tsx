@@ -34,11 +34,11 @@ const AboutSection = () => {
           <div className="relative">
             <div className="relative z-10">
               {/* EDITE: Substitua pela sua foto */}
-              <div className="aspect-[4/5] rounded-2xl overflow-hidden border-2 border-border">
+              <div className="aspect-[4/5] rounded-2xl overflow-hidden border-2 border-border shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop"
-                  alt="Foto do Eletricista"
-                  className="w-full h-full object-cover"
+                  src="/me.jpeg"
+                  alt="Davi Santos"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </div>
               

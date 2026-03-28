@@ -29,7 +29,7 @@ const PortfolioSection = () => {
       tag: "Elétrica",
       title: "Quadro Elétrico Residencial",
       description: "Instalação profissional de quadro de distribuição, organizando circuitos de forma eficiente e segura, seguindo todas as normas técnicas vigentes.",
-      image: "https://images.unsplash.com/photo-1621905252507-b35222027b5e?auto=format&fit=crop&q=80&w=800",
+      image: "/quadro-eletrico-1.jpeg",
       icon: Zap,
     },
     {
@@ -37,7 +37,7 @@ const PortfolioSection = () => {
       tag: "Elétrica",
       title: "Painel de Energia Geral",
       description: "Modernização completa de painéis elétricos antigos, eliminando problemas de sobrecarga e garantindo estabilidade energética para o imóvel.",
-      image: "https://images.unsplash.com/photo-1558486012-817176f84c6d?auto=format&fit=crop&q=80&w=800",
+      image: "/quadro-eletrico-2.jpeg",
       icon: Zap,
     },
     {
@@ -45,7 +45,7 @@ const PortfolioSection = () => {
       tag: "Segurança",
       title: "Central de Alarme Monitorada",
       description: "Configuração de central de alarme de última geração, integrando proteção perimetral e sistemas de alerta remoto via aplicativo.",
-      image: "https://images.unsplash.com/photo-1558231901-71fb589ba5b1?auto=format&fit=crop&q=80&w=800",
+      image: "/quadro-alarme-1.jpeg",
       icon: Shield,
     },
     {
@@ -53,7 +53,7 @@ const PortfolioSection = () => {
       tag: "Segurança",
       title: "Sistema de Alarme Integrado",
       description: "Montagem de quadros de segurança com backup de energia (UPS/No-break), garantindo funcionamento contínuo mesmo durante quedas de luz.",
-      image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&q=80&w=800",
+      image: "/quadro-alarme-2.jpeg",
       icon: Shield,
     },
     {
@@ -61,7 +61,7 @@ const PortfolioSection = () => {
       tag: "Iluminação",
       title: "Instalação de Luminárias LED",
       description: "Projeto luminotécnico com instalação precisa de luminárias embutidas, criando ambientes modernos e termicamente eficientes.",
-      image: "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?auto=format&fit=crop&q=80&w=800",
+      image: "/luminaria.jpeg",
       icon: Lightbulb,
     },
     {
@@ -69,7 +69,7 @@ const PortfolioSection = () => {
       tag: "Segurança",
       title: "Sensores de Presença IVP",
       description: "Instalação estratégica de sensores de movimento (I-V-P) com tecnologia anti-disparo acidental, ideal para residências com pets.",
-      image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=800",
+      image: "/sensor.jpeg",
       icon: Shield,
     },
     {
@@ -77,7 +77,7 @@ const PortfolioSection = () => {
       tag: "Monitoramento",
       title: "Câmeras CFTV em HD",
       description: "Implantação de sistema de monitoramento profissional por câmeras, com acesso em tempo real e gravação contínua para monitorar seu patrimônio de onde estiver.",
-      image: "https://images.unsplash.com/photo-1551703599-6b3e8379ba8c?auto=format&fit=crop&q=80&w=800",
+      image: "/camera.jpeg",
       icon: Camera,
     },
   ];
