@@ -28,7 +28,7 @@ const PortfolioSection = () => {
       id: 1,
       tag: "Elétrica",
       title: "Quadro Elétrico Industrial",
-      description: "Montagem técnica de quadro de força industrial, com barramentos dimensionados para alta demanda, garantindo a continuidade operacional da planta fabril.",
+      description: "Montagem técnica de quadro de força industrial, com barramentos dimensionados para alta demanda.",
       image: "/quadro-eletrico-1.jpeg",
       icon: Zap,
     },

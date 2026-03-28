@@ -42,28 +42,13 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center justify-end gap-4">
             <a
-              href={socialLinks.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-muted hover:bg-primary/10 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Instagram className="w-5 h-5" />
-            </a>
-            <a
-              href={socialLinks.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-muted hover:bg-primary/10 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Facebook className="w-5 h-5" />
-            </a>
-            <a
               href={`https://wa.me/${socialLinks.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-muted hover:bg-[hsl(142,70%,45%)]/20 text-muted-foreground hover:text-[hsl(142,70%,45%)] transition-colors"
+              className="p-3 rounded-lg bg-[hsl(142,70%,45%)]/10 text-[hsl(142,70%,45%)] hover:bg-[hsl(142,70%,45%)] hover:text-white transition-all duration-300 shadow-sm"
+              aria-label="Contato via WhatsApp"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-6 h-6" />
             </a>
           </div>
         </div>
@@ -74,7 +59,7 @@ const Footer = () => {
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             {/* EDITE: Sua cidade */}
-            Eletricista Industrial e Segurança • São Raimundo Nonato - PI
+            Eletricista Residencial & Segurança • São Raimundo Nonato - PI
           </p>
         </div>
       </div>

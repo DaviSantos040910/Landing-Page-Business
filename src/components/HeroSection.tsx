@@ -16,16 +16,17 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 pt-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-8 animate-slide-up">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm text-primary font-medium">Eletricista Industrial e Segurança • São Raimundo Nonato - PI</span>
+            <span className="text-sm text-primary font-medium">Eletricista Residencial & Segurança</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
             {/* EDITE: Seu título principal */}
-            Soluções Elétricas <span className="text-gradient">Industriais</span> e de Segurança
+            Soluções Elétricas e de{" "}
+            <span className="text-gradient">Segurança</span>{" "}
+            para sua Casa
           </h1>
 
           {/* Subtitle */}
