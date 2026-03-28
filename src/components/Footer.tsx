@@ -13,13 +13,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="p-2 rounded-lg bg-primary/10">
-              <Zap className="w-6 h-6 text-primary" />
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-lg overflow-hidden bg-white/5 p-1 border border-white/10">
+              <img src="/logo.png" alt="Logo Davi" className="w-full h-full object-contain" />
             </div>
             <span className="font-heading text-xl font-bold text-foreground">
-              {/* EDITE: Seu nome ou empresa */}
-              Davi Santos
+              Davi - Soluções Elétricas e de Segurança
             </span>
           </div>
 
@@ -55,7 +54,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Davi Santos. Todos os direitos reservados.
+            © {new Date().getFullYear()} Davi - Soluções Elétricas e de Segurança. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             {/* EDITE: Sua cidade */}

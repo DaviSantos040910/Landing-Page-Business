@@ -18,13 +18,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#inicio" className="flex items-center gap-2 group">
-            <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-              <Zap className="w-6 h-6 text-primary animate-electric" />
+          <a href="#inicio" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 rounded-lg overflow-hidden bg-white/5 p-1 border border-white/10">
+              <img src="/logo.png" alt="Logo Davi" className="w-full h-full object-contain" />
             </div>
             <span className="font-heading text-xl font-bold text-foreground">
-              {/* EDITE: Seu nome ou nome da empresa */}
-              Davi - Soluções Elétricas e Segurança
+              Davi - Soluções Elétricas e de Segurança
             </span>
           </a>
 
