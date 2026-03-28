@@ -4,7 +4,7 @@ const WhatsAppButton = () => {
   // EDITE: Seu número de WhatsApp
   const whatsappNumber = "5589981013110";
   const message = encodeURIComponent(
-    "Olá! Vi seu seus seriçoes e gostaria de solicitar um orçamento."
+    "Olá! Vi seus serviços no site e gostaria de solicitar um orçamento."
   );
 
   return (
