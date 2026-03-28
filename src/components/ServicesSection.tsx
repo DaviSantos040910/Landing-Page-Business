@@ -42,22 +42,17 @@ const ServicesSection = () => {
     {
       icon: Camera,
       title: "Câmeras de Segurança",
-      description: "Instalação de sistemas de CFTV com monitoramento remoto pelo celular.",
-    },
-    {
-      icon: Lock,
-      title: "Alarmes Residenciais",
-      description: "Sistemas de alarme com sensores de presença e monitoramento 24h.",
+      description: "Monitoramento por CFTV em alta definição com acesso remoto 24h pelo seu smartphone.",
     },
     {
       icon: Shield,
-      title: "Cercas Elétricas",
-      description: "Instalação de cercas elétricas com central de choque e alarme integrado.",
+      title: "Alarmes Monitorados",
+      description: "Sistemas de alarme inteligentes com sensores inteligentes e notificação imediata.",
     },
     {
       icon: Home,
       title: "Controle de Acesso",
-      description: "Sistemas de controle de acesso com fechaduras eletrônicas e interfones.",
+      description: "Tecnologia de ponta com fechaduras digitais e interfonia para sua total segurança.",
     },
   ];
 

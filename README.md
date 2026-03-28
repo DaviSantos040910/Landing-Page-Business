@@ -176,6 +176,15 @@ Edite os seguintes arquivos para trocar os dados:
 - Atualize o `<title>` e meta tags em `index.html`
 - Configure o `public/robots.txt` com o domínio correto
 
+### 4. Integração com Resend (E-mails)
+
+Para que o formulário de contato envie e-mails, você precisa configurar o [Resend](https://resend.com).
+
+1.  Crie uma conta gratuita no Resend.
+2.  Gere uma **API Key**.
+3.  Configure a variável de ambiente `RESEND_API_KEY` na sua plataforma de hospedagem (Vercel, Netlify, etc.).
+4.  No arquivo `api/contact.ts`, verifique se o e-mail em `from` e `to` está correto.
+
 ---
 
 ## 📁 Estrutura do Projeto
