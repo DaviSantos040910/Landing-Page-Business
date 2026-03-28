@@ -39,7 +39,7 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <Button variant="hero" size="xl" asChild>
-              <a href={`https://wa.me/5589981013110`} target="_blank" rel="noopener noreferrer">
+              <a href="#contato">
                 <Zap className="w-5 h-5" />
                 Solicitar Orçamento
               </a>

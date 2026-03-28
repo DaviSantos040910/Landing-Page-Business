@@ -83,7 +83,7 @@ const PortfolioSection = () => {
   ];
 
   return (
-    <section id="trabalhos" className="py-24 bg-background overflow-hidden">
+    <section id="portfolio" className="py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
