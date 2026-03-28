@@ -6,7 +6,7 @@ const ServicesSection = () => {
     {
       icon: Lightbulb,
       title: "Instalações Elétricas",
-      description: "Instalação completa de sistemas elétricos industriais e residenciais, incluindo automação, força e iluminação.",
+      description: "Instalação completa de sistemas elétricos residenciais e prediais, incluindo automação, força e iluminação.",
     },
     {
       icon: Cable,
@@ -70,7 +70,7 @@ const ServicesSection = () => {
             O que Posso Fazer por Você
           </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-                Sou eletricista industrial, residencial e predial com vasta experiência no mercado. 
+                Sou eletricista residencial e predial com vasta experiência no mercado. 
                 Especializado em instalações de alta complexidade e sistemas de segurança avançados, 
                 sempre trabalhando com qualidade e rigor técnico.
             </p>

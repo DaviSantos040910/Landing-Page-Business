@@ -61,7 +61,7 @@ const AboutSection = () => {
             <div className="space-y-4 text-muted-foreground mb-8">
               {/* EDITE: Sua história e experiência */}
               <p>
-                Sou eletricista industrial, residencial e predial com vasta experiência no mercado. 
+                Sou eletricista residencial e predial com vasta experiência no mercado. 
                 Especializado em instalações de alta complexidade e sistemas de segurança avançados, 
                 sempre trabalhando com qualidade e rigor técnico.
               </p>
