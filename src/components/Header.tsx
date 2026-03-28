@@ -22,8 +22,8 @@ const Header = () => {
             <div className="w-10 h-10 rounded-lg overflow-hidden bg-white/5 p-1 border border-white/10">
               <img src="/logo.png" alt="Logo Davi" className="w-full h-full object-contain" />
             </div>
-            <span className="font-heading text-xl font-bold text-foreground">
-              Davi - Soluções Elétricas e de Segurança
+            <span className="font-heading text-base sm:text-lg md:text-xl font-bold text-foreground truncate max-w-[180px] xs:max-w-[250px] sm:max-w-none">
+              Davi - Elétrica & Segurança
             </span>
           </a>
 
