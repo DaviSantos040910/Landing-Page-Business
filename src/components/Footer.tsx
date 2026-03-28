@@ -18,7 +18,7 @@ const Footer = () => {
               <img src="/logo.png" alt="Logo Davi" className="w-full h-full object-contain" />
             </div>
             <span className="font-heading text-xl font-bold text-foreground">
-              Davi - Soluções Elétricas e de Segurança
+              Davi - Elétrica & Segurança
             </span>
           </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Davi - Soluções Elétricas e de Segurança. Todos os direitos reservados.
+            © {new Date().getFullYear()} Davi - Elétrica & Segurança. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             {/* EDITE: Sua cidade */}
