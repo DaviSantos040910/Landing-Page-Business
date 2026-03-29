@@ -184,7 +184,7 @@ const ContactSection = () => {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-sm font-semibold text-foreground ml-1">
-                  Nome Completo
+                  Nome
                 </label>
                 <input
                   {...register("name")}
