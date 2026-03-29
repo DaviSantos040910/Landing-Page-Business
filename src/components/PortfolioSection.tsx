@@ -193,7 +193,7 @@ const PortfolioSection = () => {
         <div className="mt-20 p-8 rounded-[2rem] bg-gradient-to-r from-primary/10 via-background to-secondary/10 border border-primary/20 text-center max-w-4xl mx-auto shadow-sm">
           <h4 className="text-2xl font-bold mb-4">Gostou do que viu?</h4>
           <p className="text-muted-foreground mb-8">
-            Estes são apenas alguns exemplos de trabalhos realizados. Cada projeto é tratado com atenção total aos detalhes e foco na sua tranquilidade.
+            Estes são apenas alguns exemplos de trabalhos realizados. Cada projeto é tratado com atenção total aos detalhes e foco na qualidade.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contato" className="px-8 py-4 bg-primary text-primary-foreground rounded-full font-bold hover:glow-primary transition-all">
