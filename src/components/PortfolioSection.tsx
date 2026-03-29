@@ -134,7 +134,7 @@ const PortfolioSection = () => {
                       <h3 className="text-2xl md:text-3xl font-heading font-bold text-white mb-3">
                         {work.title}
                       </h3>
-                      <p className="text-white/80 line-clamp-2 md:line-clamp-none text-sm md:text-base mb-6 max-w-lg">
+                      <p className="text-white/80 text-sm md:text-base mb-6 max-w-lg">
                         {work.description}
                       </p>
                       
