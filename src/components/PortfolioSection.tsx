@@ -94,7 +94,7 @@ const PortfolioSection = () => {
             Confira Nossos Últimos Trabalhos
           </h2>
           <p className="text-muted-foreground text-lg">
-            Soluções executadas com perfeição. Veja nas imagens como transformamos e protegemos cada moradia.
+            Soluções executadas com perfeição. Veja nas imagens como transformamos e protegemos cada ambiente.
           </p>
         </div>
 
